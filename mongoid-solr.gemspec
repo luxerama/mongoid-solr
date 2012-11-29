@@ -4,8 +4,8 @@ require File.expand_path('../lib/mongoid-solr/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["luxerama"]
   gem.email         = ["vincent@siebert.im"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Solr integration for mongoid}
+  gem.summary       = %q{Index your mongoid documents with ease}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
